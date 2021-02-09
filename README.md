@@ -3,7 +3,7 @@
 
 ## Business Understanding
 #### Project Goal:
-The Goal of this project is to predict the Employees of a company that are most likely to leave the company by using the Pyspark.
+The Goal of this project is to predict the Employees that are most likely to leave the company by using the Pyspark.
 #### Practical use:
 * By Understanding the possible Employee Attrtion the companies can plan the employee retension plans.
 * By knowing factors are contributing the Employee Attrition the comapnies can change their work Culture.
