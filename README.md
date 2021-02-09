@@ -53,10 +53,35 @@ The Employee DataFrame has schema as below:
 * we have 35 features inthe dataframe
 * We 25 integer and 10 string type features.
 
-
 ## Exploratory Data Analysis
+### Categorical Data:
+![Categorical](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/Categorical.png)
+
+#### Employee Attrtion Based on Overtime:
+We can see that The Attrition rate is higher in the Employees that are working Overtime than employess not working on Overtime.
+#### Employee Attrtion Based on Department:
+The Attrition rate is higher in Sales and Research Deparments compare to the HR department
+#### Employee Attrtion Based on Business Travel:
+The Attrition rate is higher in the Employees that are travel frequently than other employees.
+#### Employee Attrtion Based on MaritalStatus:
+It is clear that the Attrition rate is high in single Employess and very less in Married Employees.
+#### Employee Attrtion Based on JobSatisfaction:
+The Attrition rate is high in JobSatisfaction level 1 and level 3 compare to other levels.
+#### Employee Attrtion Based on JobInvolvement:
+The Attrition rate is high in JobInvolvement level 2 and level 3 compare to other levels.
+#### Employee Attrtion Based on JobLevel:
+The Attrition rate is high in JobLevel level 1 compare to other levels.
+#### Employee Attrtion Based on StockOptionlevel:
+The Attrition rate is high in StockOptionlevel level 0 compare to other levels.
+
+![Categoricalandcontinious](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/continious_categorical.png)
+
+![continious](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/continious.png)
+
 
 ## Feature Engineering
+
+![Correlation](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/corelation.png)
 
 ## Modeling and Performance Tuning
 
