@@ -102,15 +102,25 @@ As Part of feature engineering we followed the below steps:
 In this step we removed the below unwanted features in the dataframe
 > ('EmployeeCount','EmployeeNumber','Over18','StandardHours')
 #### StingIndexer
-The Categorical string features are converted into numercial by using the StingIndexer package
+The Categorical string features are converted into numercial by using the StingIndexer function
 > ("Attrition","BusinessTravel", "Department","EducationField",  "Gender", "JobRole", "MaritalStatus", "OverTime")
 
 #### Correlation Matrix:
 ![Correlation](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/corelation.png)
+
+In the above plot we can see the correlation between all the features after converting all the features into numerical format.
+
 #### VectorAssembler
+
+* Each record is converted into the Vector by using the VectorAssembler function.
+* The features that are using to build the model are passed as input list to the function along with dataframe.
+* below is the list of features that passed the function.
+
+> ("Age","DailyRate", "DistanceFromHome", "Education", "EnvironmentSatisfaction", "HourlyRate", "JobInvolvement", "JobLevel", "JobSatisfaction","MonthlyIncome", "MonthlyRate", "NumCompaniesWorked","PercentSalaryHike", "PerformanceRating", "RelationshipSatisfaction","StockOptionLevel", "TotalWorkingYears", "TrainingTimesLastYear","WorkLifeBalance","YearsAtCompany","YearsInCurrentRole", "YearsSinceLastPromotion", "YearsWithCurrManager", "BusinessTravelIndex","DepartmentIndex", "EducationFieldIndex", "GenderIndex", "JobRoleIndex", "MaritalStatusIndex", "OverTimeIndex")
+
 #### Standard Scalar
 
-![Correlation](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/corelation.png)
+
 
 ## Modeling and Performance Tuning
 
