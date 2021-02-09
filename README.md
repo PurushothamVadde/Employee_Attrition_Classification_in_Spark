@@ -74,7 +74,7 @@ The Attrition rate is high in JobLevel level 1 compare to other levels.
 #### Employee Attrtion Based on StockOptionlevel:
 The Attrition rate is high in StockOptionlevel level 0 compare to other levels.
 
-## Categorical and Continious variables:
+## Continious variables:
 ![Categoricalandcontinious](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/continious_categorical.png)
 
 #### Employee Attrtion Based on Department and Monthly Income:
@@ -90,12 +90,6 @@ The Attrition is high in level 1 and the income is low in level 1 as the level i
 #### Employee Attrtion Based on OverTime and Monthly Income:
 The Attrition is high in people doing overtime with low income.
 
-## Continious variables:
-![continious](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/continious.png)
-
-* There is a linear relationship between ToralWorkingYears and years at comapny, Years with Current Manager, Years since last promotion, years in current role.
-* The Attrition also has linear relation ship with above continious features.
-
 ## Feature Engineering:
 * As Part of feature engineering we followed the below steps:
 #### Removing Unwanted Features:
@@ -108,7 +102,10 @@ The Attrition is high in people doing overtime with low income.
 #### Correlation Matrix:
 ![Correlation](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/corelation.png)
 
-In the above plot we can see the correlation between all the features after converting all the features into numerical format.
+* In the above plot we can see the correlation between all the features after converting all the features into numerical format.
+* we can also see there is a linear relationship between ToralWorkingYears and years at comapny, Years with Current Manager, Years since last promotion, years in current role.
+
+
 
 #### VectorAssembler
 
