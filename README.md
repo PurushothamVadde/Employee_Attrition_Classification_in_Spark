@@ -97,13 +97,13 @@ The Attrition is high in people doing overtime with low income.
 * The Attrition also has linear relation ship with above continious features.
 
 ## Feature Engineering:
-As Part of feature engineering we followed the below steps:
+* As Part of feature engineering we followed the below steps:
 #### Removing Unwanted Features:
-In this step we removed the below unwanted features in the dataframe
-> ('EmployeeCount','EmployeeNumber','Over18','StandardHours')
+* In this step we removed the below unwanted features in the dataframe
+  > ('EmployeeCount','EmployeeNumber','Over18','StandardHours')
 #### StingIndexer
-The Categorical string features are converted into numercial by using the StingIndexer function
-> ("Attrition","BusinessTravel", "Department","EducationField",  "Gender", "JobRole", "MaritalStatus", "OverTime")
+* The Categorical string features are converted into numercial by using the StingIndexer function
+  > ("Attrition","BusinessTravel", "Department","EducationField",  "Gender", "JobRole", "MaritalStatus", "OverTime")
 
 #### Correlation Matrix:
 ![Correlation](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/corelation.png)
@@ -119,8 +119,9 @@ In the above plot we can see the correlation between all the features after conv
 > ("Age","DailyRate", "DistanceFromHome", "Education", "EnvironmentSatisfaction", "HourlyRate", "JobInvolvement", "JobLevel", "JobSatisfaction","MonthlyIncome", "MonthlyRate", "NumCompaniesWorked","PercentSalaryHike", "PerformanceRating", "RelationshipSatisfaction","StockOptionLevel", "TotalWorkingYears", "TrainingTimesLastYear","WorkLifeBalance","YearsAtCompany","YearsInCurrentRole", "YearsSinceLastPromotion", "YearsWithCurrManager", "BusinessTravelIndex","DepartmentIndex", "EducationFieldIndex", "GenderIndex", "JobRoleIndex", "MaritalStatusIndex", "OverTimeIndex")
 
 #### Standard Scalar
-
-
+* The Vectorized features are passed as input to the Standard scalar function so that all the features are scaled at same scale.
+* The feature vectors after feature engineering as displayed as below.
+![features](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/features.png)
 
 ## Modeling and Performance Tuning
 
