@@ -78,13 +78,24 @@ The Attrition rate is high in StockOptionlevel level 0 compare to other levels.
 ![Categoricalandcontinious](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/continious_categorical.png)
 
 #### Employee Attrtion Based on Department and Monthly Income:
+The Attrition is high in Employees with low income compare to higher income in all departments and more in sales department.
 #### Employee Attrtion Based on MaritalStatus and Monthly Income:
+The Attrition is high in Employees with low income and Single compare to other employees.
 #### Employee Attrtion Based on EducationField and Monthly Income:
+The Attrtion is high in the Employees with low income in all departments and the income is high in lifesciences and medical Employees category.
 #### Employee Attrtion Based on Gender and Monthly Income:
-#### Employee Attrtion Based on JobSatisfaction and Monthly Income:
+The Attrition rate is high in males Employees and the income also high in male Employees.
+#### Employee Attrtion Based on Joblevel and Monthly Income:
+The Attrition is high in level 1 and the income is low in level 1 as the level increases the attrion reduces and the income increases.
 #### Employee Attrtion Based on OverTime and Monthly Income:
+The Attrition is high in people doing overtime with low income.
 
+## Continious variables:
 ![continious](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/continious.png)
+
+* There is a linear relationship between ToralWorkingYears and years at comapny, Years with Current Manager, Years since last promotion, years in current role.
+* The Attrition also has linear relation ship with above continious features.
+
 
 
 ## Feature Engineering
