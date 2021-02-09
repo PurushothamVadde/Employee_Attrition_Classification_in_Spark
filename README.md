@@ -96,9 +96,19 @@ The Attrition is high in people doing overtime with low income.
 * There is a linear relationship between ToralWorkingYears and years at comapny, Years with Current Manager, Years since last promotion, years in current role.
 * The Attrition also has linear relation ship with above continious features.
 
+## Feature Engineering:
+As Part of feature engineering we followed the below steps:
+#### Removing Unwanted Features:
+In this step we removed the below unwanted features in the dataframe
+> ('EmployeeCount','EmployeeNumber','Over18','StandardHours')
+#### StingIndexer
+The Categorical string features are converted into numercial by using the StingIndexer package
+> ("Attrition","BusinessTravel", "Department","EducationField",  "Gender", "JobRole", "MaritalStatus", "OverTime")
 
-
-## Feature Engineering
+#### Correlation Matrix:
+![Correlation](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/corelation.png)
+#### VectorAssembler
+#### Standard Scalar
 
 ![Correlation](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/corelation.png)
 
