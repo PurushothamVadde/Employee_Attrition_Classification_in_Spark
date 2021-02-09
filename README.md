@@ -74,7 +74,15 @@ The Attrition rate is high in JobLevel level 1 compare to other levels.
 #### Employee Attrtion Based on StockOptionlevel:
 The Attrition rate is high in StockOptionlevel level 0 compare to other levels.
 
+## Categorical and Continious variables:
 ![Categoricalandcontinious](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/continious_categorical.png)
+
+#### Employee Attrtion Based on Department and Monthly Income:
+#### Employee Attrtion Based on MaritalStatus and Monthly Income:
+#### Employee Attrtion Based on EducationField and Monthly Income:
+#### Employee Attrtion Based on Gender and Monthly Income:
+#### Employee Attrtion Based on JobSatisfaction and Monthly Income:
+#### Employee Attrtion Based on OverTime and Monthly Income:
 
 ![continious](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/continious.png)
 
