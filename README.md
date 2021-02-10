@@ -112,7 +112,7 @@ The Attrition is high in people doing overtime with low income.
 
 * Each record is converted into the Vector by using the VectorAssembler function.
 * The features that are using to build the model are passed as input list to the function along with dataframe.
-* below is the list of features that passed the function.
+* below is the list of features that passed to the Vector Assembler function.
 
 > ("Age","DailyRate", "DistanceFromHome", "Education", "EnvironmentSatisfaction", "HourlyRate", "JobInvolvement", "JobLevel", "JobSatisfaction","MonthlyIncome", "MonthlyRate", "NumCompaniesWorked","PercentSalaryHike", "PerformanceRating", "RelationshipSatisfaction","StockOptionLevel", "TotalWorkingYears", "TrainingTimesLastYear","WorkLifeBalance","YearsAtCompany","YearsInCurrentRole", "YearsSinceLastPromotion", "YearsWithCurrManager", "BusinessTravelIndex","DepartmentIndex", "EducationFieldIndex", "GenderIndex", "JobRoleIndex", "MaritalStatusIndex", "OverTimeIndex")
 
