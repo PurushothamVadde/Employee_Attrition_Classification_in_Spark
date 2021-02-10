@@ -120,7 +120,7 @@ The Attrition is high in people doing overtime with low income.
 * The feature vectors after feature engineering as displayed as below.
 ![features](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/features.png)
 
-## Modeling and Performance Tuning:
+## Modeling and Evaluation:
 ### Classification models:
 By predicting the Employee Attrition using the Classification models and error evaluation metric as Accuracy with **ParamGridBuilder()** i got Accuracy for each model as below.
 #### Logistic Regression
@@ -149,6 +149,10 @@ By predicting the Employee Attrition using the Classification models and error e
 
 From the all classification model we got the better Accuracy with the **Logistic Regression** and **Gradient Boost Trees**.
 
-## Model Evaluation
-
 ## Conclusion
+
+By Using the above Classification Algorithms we are able to predict the Employee Attrition with 0.875 Accuracy.
+By this project the companies can plan below operations in better way which will increase the profit and reduce the Employee Dependencies in a company.
+* Better understanding of Impact on Productivity, impact on Profit and plan the employee retension plans.
+* Planning of recruitment of new employees
+* Better management of project/ Protfolios in the company.
