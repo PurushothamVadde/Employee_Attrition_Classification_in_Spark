@@ -121,6 +121,7 @@ The Attrition is high in people doing overtime with low income.
 ![features](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/features.png)
 
 ## Modeling and Performance Tuning
+![Tuning](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/modeltuning.png)
 
 ## Model Evaluation
 
