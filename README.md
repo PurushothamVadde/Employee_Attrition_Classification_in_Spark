@@ -120,8 +120,34 @@ The Attrition is high in people doing overtime with low income.
 * The feature vectors after feature engineering as displayed as below.
 ![features](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/features.png)
 
-## Modeling and Performance Tuning
-![Tuning](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/modeltuning.png)
+## Modeling and Performance Tuning:
+### Classification models:
+By predicting the Employee Attrition using the Classification models and error evaluation metric as Accuracy with **ParamGridBuilder()** i got Accuracy for each model as below.
+#### Logistic Regression
+* The Accuracy for Train Data is 0.875610
+* The Accuracy for Test Data is 0.882075
+* The Tuning params For best Model in Logistic Regression is {'ElasticNetParam': 0.0, 'RegParam': 0.0, 'MaxIter': 200}
+#### Decision Trees
+* The Accuracy for Train Data is 0.871698
+* The Accuracy for Test Data is 0.848780
+* The Tuning params For best Model in DecisionTrees is {'MaxBins': 60, 'MaxDepth': 4, 'Impurity': 'entropy'}
+#### Random Forest
+* The Accuracy for Train Data is 0.892453
+* The Accuracy for Test Data is 0.865854
+* The Tuning params For best Model in RandomForest is {'MaxBins': 5, 'MaxDepth': 6, 'Trees': 200}
+#### Gradient Boost Trees
+* The Accuracy for Train Data is 0.934906
+* The Accuracy for Test Data is 0.873171
+* The Tuning params For best Model in GradientBoostTrees is {'MaxBins': 10, 'MaxDepth': 4, 'MaxIterations': 20}
+
+|     Model               | Train Accuracy  | Tuning Parameters                                         |   Test Accuracy  |
+| :---------------------- | :---------------| :-------------------------------------------------------- | :----------------|
+| Logistic_Regression     | 0.875610        | {'ElasticNetParam': 0.0, 'RegParam': 0.0, 'MaxIter': 200} | **0.882075**     |
+| DecisionTrees           | 0.871698        | {'MaxBins': 60, 'MaxDepth': 4, 'Impurity': 'entropy'}     |   0.848780       |
+| RandomForest            | 0.892453        | {'MaxBins': 5, 'MaxDepth': 6, 'Trees': 200}               |   0.865854       |
+| Gradient Boost Trees    | 0.934906        | {'MaxBins': 10, 'MaxDepth': 4, 'MaxIterations': 20}       | **0.873171**     |
+
+From the all classification model we got the better Accuracy with the **Logistic Regression** and **Gradient Boost Trees**.
 
 ## Model Evaluation
 
