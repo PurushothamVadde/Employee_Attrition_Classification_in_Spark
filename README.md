@@ -58,9 +58,9 @@ The Employee DataFrame has schema as below:
  > |-- YearsSinceLastPromotion: integer (nullable = true)\
  > |-- YearsWithCurrManager: integer (nullable = true)\
 
-* There are *Zero* Missig values in the dataset
+* There are **Zero** Missig values in the dataset
 * we have 35 features inthe dataframe
-* We 25 integer and 10 string type features.
+* We have 25 integer and 10 string type features.
 
 ## Exploratory Data Analysis
 ### Categorical Data:
