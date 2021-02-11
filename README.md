@@ -2,7 +2,12 @@
 ![Pyspark](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/spark_python.png)
 
 This project has below modules:
-- [BusinessUnderstanding](#business-understanding)
+- [Business Understanding](#business-understanding)
+- [Data Understanding](#data-Understanding)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Feature Engineering](#feature-engineering)
+- [Modeling and Evaluation](#modeling-and-evaluation)
+- [Conclusion](#conclusion)
 
 ## Business Understanding
 #### Project Goal:
