@@ -6,7 +6,7 @@ This project has below modules:
 - [Data Understanding](#data-Understanding)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Feature Engineering](#feature-engineering)
-- [Modeling and Evaluation](#modeling-and-evaluation)
+- [Modeling and Performance Tuning](#modeling-and-performance-tuning)
 - [Conclusion](#conclusion)
 
 ## Business Understanding
@@ -129,7 +129,7 @@ The Attrition is high in people doing overtime with low income.
 * The feature vectors after feature engineering as displayed as below.
 ![features](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/features.png)
 
-## Modeling and Evaluation:
+## Modeling and Performance Tuning:
 ### Classification models:
 By predicting the Employee Attrition using the Classification models and error evaluation metric as Accuracy with **ParamGridBuilder()** i got Accuracy for each model as below.
 #### Logistic Regression
