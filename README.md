@@ -156,7 +156,7 @@ By predicting the Employee Attrition using the Classification models and error e
 | RandomForest            | 0.892453        | {'MaxBins': 5, 'MaxDepth': 6, 'Trees': 200}               |   0.865854       | 0.12   |
 | Gradient Boost Trees    | 0.934906        | {'MaxBins': 10, 'MaxDepth': 4, 'MaxIterations': 20}       | **0.873171**     | 0.29   |
 
-From the all classification model with **highly unbalanced dataset** we got the better Accuracy and Recall values with the **Logistic Regression** and **Gradient Boost Trees**.
+From the all classification model with **highly unbalanced dataset** we got the better Accuracy and Recall(for Employee Attrition) values with the **Logistic Regression** and **Gradient Boost Trees**.
 
 ## Conclusion
 
