@@ -1,4 +1,4 @@
-# EmployeeAttrition_With_Pyspark
+# EmployeeAttrition_Classification_in_Spark
 ![Pyspark](https://github.com/PurushothamVadde/EmployeeAttrition_With_Pyspark/blob/main/images/spark_python.png)
 
 This project has below modules:
