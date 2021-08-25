@@ -149,12 +149,12 @@ By predicting the Employee Attrition using the Classification models and error e
 * The Accuracy for Test Data is 0.873171
 * The Tuning params For best Model in GradientBoostTrees is {'MaxBins': 10, 'MaxDepth': 4, 'MaxIterations': 20}
 
-|     Model               | Train Accuracy  | Tuning Parameters                                         |   Test Accuracy  | Recall |
-| :---------------------- | :---------------| :-------------------------------------------------------- | :----------------| :------|
-| Logistic_Regression     | 0.882075        | {'ElasticNetParam': 0.0, 'RegParam': 0.0, 'MaxIter': 200} | **0.875610**     | 0.33   | 
-| DecisionTrees           | 0.871698        | {'MaxBins': 60, 'MaxDepth': 4, 'Impurity': 'entropy'}     |   0.848780       | 0.11   |
-| RandomForest            | 0.892453        | {'MaxBins': 5, 'MaxDepth': 6, 'Trees': 200}               |   0.865854       | 0.12   |
-| Gradient Boost Trees    | 0.934906        | {'MaxBins': 10, 'MaxDepth': 4, 'MaxIterations': 20}       | **0.873171**     | 0.29   |
+|     Model               | Train Accuracy  | Tuning Parameters                                         |   Test Accuracy  | 
+| :---------------------- | :---------------| :-------------------------------------------------------- | :----------------| 
+| Logistic_Regression     | 0.882075        | {'ElasticNetParam': 0.0, 'RegParam': 0.0, 'MaxIter': 200} | **0.875610**     | 
+| DecisionTrees           | 0.871698        | {'MaxBins': 60, 'MaxDepth': 4, 'Impurity': 'entropy'}     |   0.848780       | 
+| RandomForest            | 0.892453        | {'MaxBins': 5, 'MaxDepth': 6, 'Trees': 200}               |   0.865854       | 
+| Gradient Boost Trees    | 0.934906        | {'MaxBins': 10, 'MaxDepth': 4, 'MaxIterations': 20}       | **0.873171**     | 
 
 From the all classification model with **highly unbalanced dataset** we got the better Accuracy and Recall(for Employee Attrition) values with the **Logistic Regression** and **Gradient Boost Trees**.
 
